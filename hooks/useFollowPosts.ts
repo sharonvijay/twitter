@@ -8,10 +8,14 @@ const useFollowPosts = () => {
   // Construct an array of user IDs to include the current user and their followed users
   const userIds = [currentUser?.id, ...currentUser?.followingIds];
 
+  console.log("userIds:", userIds);
+
   // Construct the URL to fetch posts from the specified user IDs
   const url = `/api/posts?userIds=${userIds.join(',')}`;
 
   const { data, error, isLoading, mutate } = useSWR(url, fetcher);
+
+  console.log("data:", data); 
   return { data, error, isLoading, mutate };
 }
  
