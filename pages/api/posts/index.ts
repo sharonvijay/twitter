@@ -27,7 +27,8 @@ export default async function handler(req:NextApiRequest,res:NextApiResponse)
 
             if(userId && typeof userId === 'string')
             {
-                posts = await prisma.post.findMany({where:{userId},include:{user:true,comments:true},orderBy:{createdAt:'desc'}});
+                const userIds = userId.split(",");
+                posts = await prisma.post.findMany({where:{userId :{in:userIds}},include:{user:true,comments:true},orderBy:{createdAt:'desc'}});
 
             }
             else
