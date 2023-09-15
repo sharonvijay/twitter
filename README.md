@@ -6,7 +6,11 @@ The application should allow users to register, post tweets, follow other users,
 
 ## Application UI
 
-![APP UI](https://github.com/sharonvijay/twitter/assets/94788632/5fecfd21-7fed-4113-81dc-ec33e31b4951)
+![HOME UI](https://github.com/sharonvijay/twitter/assets/94788632/5fecfd21-7fed-4113-81dc-ec33e31b4951)
+
+
+![PROFILE UI](https://github.com/sharonvijay/twitter/assets/94788632/662578e5-8886-4ce8-ae81-48ce7696063d)
+
 
 
 ## Application Demo
