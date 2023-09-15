@@ -12,9 +12,15 @@ import usePost from "@/hooks/usePost";
 interface FormProps {
 	placeholder: string;
 	isComment?: boolean;
+	isEdit?: boolean;
 	postId?: string;
 }
-const Form: React.FC<FormProps> = ({ placeholder, isComment, postId }) => {
+const Form: React.FC<FormProps> = ({
+	placeholder,
+	isComment,
+	postId,
+	isEdit,
+}) => {
 	const registerModal = useRegisterModal();
 	const loginModal = useLoginModal();
 
@@ -42,7 +48,7 @@ const Form: React.FC<FormProps> = ({ placeholder, isComment, postId }) => {
 		}
 	}, [body, mutatePosts, isComment, postId, mutatePost]);
 	return (
-		<div className="boder-b-[1px] border-neutral-800 px-5 py-2">
+		<div className="border-b-[1px] border-neutral-800 px-5 py-2">
 			{currentUser ? (
 				<div className="flex flex-row gap-4">
 					<div>
