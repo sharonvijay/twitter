@@ -19,6 +19,6 @@ https://github.com/sharonvijay/twitter/assets/94788632/725d3f2d-81b7-4c17-8c04-a
 
 The technologies used in this project include:
 - ![Next.js](https://img.icons8.com/color/48/000000/nextjs.png) Next.js
-- ![Prisma](https://icons8.com/icon/aqb9SdV9P8oC/prisma-orm) Prisma
+- ![Prisma](https://img.icons8.com/color/48/000000/prisma-orm.png) Prisma
 - ![MongoDB](https://img.icons8.com/color/48/000000/mongodb.png) MongoDB
 - ![TypeScript](https://img.icons8.com/color/48/000000/typescript.png) TypeScript
