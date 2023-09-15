@@ -11,8 +11,9 @@ The application should allow users to register, post tweets, follow other users,
 
 ## Application Demo
 
+You can find a live demo of the application 
 
-You can find a live demo of the application [here](https://github.com/sharonvijay/twitter/assets/94788632/725d3f2d-81b7-4c17-8c04-ac6f75d5aa94)
+https://github.com/sharonvijay/twitter/assets/94788632/725d3f2d-81b7-4c17-8c04-ac6f75d5aa94
 
 ## Tech Stack
 
