@@ -1,5 +1,3 @@
-# IVYKIDS (YELLOW CLASS) - SDE (FULL STACK) PROFILE ASSIGNMENT ROUND
-
 ## Mini Twitter Clone
 
 The application should allow users to register, post tweets, follow other users, and view the tweets of the users they have followed
